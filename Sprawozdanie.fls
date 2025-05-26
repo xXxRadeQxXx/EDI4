@@ -68,6 +68,12 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -140,6 +146,7 @@ INPUT ./3.PNG
 INPUT ./3.PNG
 INPUT ./3.PNG
 INPUT ./3.PNG
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/pl/plr10.tfm
 INPUT ./4.PNG
 INPUT ./4.PNG
 INPUT ./4.PNG
@@ -184,6 +191,7 @@ INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plbx12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plex10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plmi12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plmi8.pfb
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plr10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plr12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plr8.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plsy10.pfb

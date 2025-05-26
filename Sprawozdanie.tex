@@ -9,6 +9,7 @@
 \usepackage{siunitx}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{subcaption}
 
 \begin{document}
 
@@ -69,20 +70,26 @@ Prostownik jednopołówkowy to rzeczywiście najprostsza konfiguracja prostownik
 
 \begin{itemize}
     \item \textbf{Bez kondensatora:} zakres napięcia: 0 -- 900 mV
-    \begin{figure}[h]
-\centering
-\includegraphics[width=0.8\textwidth]{3.png}
-\caption{Odczyt pomiaru bez kondensatora.}
-\label{fig:schemat}
-\end{figure}
     \item \textbf{Z kondensatorem:} napięcie stabilizowane w zakresie 680 -- 840 mV
-    \begin{figure}[H]
-\centering
-\includegraphics[width=0.8\textwidth]{4.png}
-\caption{Odczyt pomiaru z kondensatorem.}
-\label{fig:schemat}
-\end{figure}
 \end{itemize}
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{3.png}
+        \caption{Odczyt pomiaru bez kondensatora.}
+        \label{fig:schemat1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{4.png}
+        \caption{Odczyt pomiaru z kondensatorem.}
+        \label{fig:schemat2}
+    \end{subfigure}
+    \caption{Porównanie odczytów z oraz bez kondensatora.}
+    \label{fig:porownanie}
+\end{figure}
 
 \subsection*{Teoretyczne obliczenia}
 
@@ -160,22 +167,26 @@ Prostownik dwupołówkowy z odczepem środkowym wykorzystuje dwie diody i transf
 
 \begin{itemize}
     \item \textbf{Bez kondensatora:} napięcie wyjściowe: 0 -- 832 mV
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.8\textwidth]{6.png}
-        \caption{Odczyt pomiaru bez kondensatora.}
-        \label{fig:bez_kondensatora_dwu}
-    \end{figure}
-
     \item \textbf{Z kondensatorem:} napięcie: 696 -- 784 mV
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.8\textwidth]{7.png}
-        \caption{Odczyt pomiaru z kondensatorem.}
-        \label{fig:z_kondensatorem_dwu}
-    \end{figure}
 \end{itemize}
-
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{6.png}
+        \caption{Odczyt pomiaru bez kondensatora.}
+        \label{fig:schemat1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{7.png}
+        \caption{Odczyt pomiaru z kondensatorem.}
+        \label{fig:schemat2}
+    \end{subfigure}
+    \caption{Porównanie odczytów z oraz bez kondensatora.}
+    \label{fig:porownanie}
+\end{figure}
 \subsection*{Teoretyczne obliczenia}
 
 \textbf{Napięcie szczytowe:}
@@ -233,21 +244,26 @@ Prostownik mostkowy, znany również jako układ Graetza, składa się z czterec
 
 \begin{itemize}
     \item \textbf{Bez kondensatora:} napięcie wyjściowe: 0 -- 504 mV
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.8\textwidth]{9.png}
-        \caption{Odczyt pomiaru bez kondensatora.}
-        \label{fig:bez_kondensatora_mostek}
-    \end{figure}
-
     \item \textbf{Z kondensatorem:} napięcie: 352 -- 400 mV
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.8\textwidth]{10.png}
-        \caption{Odczyt pomiaru z kondensatorem.}
-        \label{fig:z_kondensatorem_mostek}
-    \end{figure}
 \end{itemize}
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{9.png}
+        \caption{Odczyt pomiaru bez kondensatora.}
+        \label{fig:schemat1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{10.png}
+        \caption{Odczyt pomiaru z kondensatorem.}
+        \label{fig:schemat2}
+    \end{subfigure}
+    \caption{Porównanie odczytów z oraz bez kondensatora.}
+    \label{fig:porownanie}
+\end{figure}
 
 \subsection*{Teoretyczne obliczenia}
 
