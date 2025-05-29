@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.22)  26 MAY 2025 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.22)  26 MAY 2025 22:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -421,78 +421,76 @@ Package pdftex.def Info: 1.png  used on input line 54.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2.png, id=4, 422.57875pt x 202.7575pt>
+<2.png, id=4, 623.32875pt x 207.174pt>
 File: 2.png Graphic file (type png)
 <use 2.png>
 Package pdftex.def Info: 2.png  used on input line 62.
-(pdftex.def)             Requested size: 364.19667pt x 174.74858pt.
+(pdftex.def)             Requested size: 364.19667pt x 121.04929pt.
 
 
 [1
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/pl/plrm.enc} <./AB09.png>]
-
-[2 <./1.PNG> <./2.png>]
-<3.png, id=18, 2574.61874pt x 1911.14pt>
+<3.png, id=13, 2574.61874pt x 1911.14pt>
 File: 3.png Graphic file (type png)
 <use 3.png>
 Package pdftex.def Info: 3.png  used on input line 79.
 (pdftex.def)             Requested size: 204.85846pt x 152.04863pt.
-<4.png, id=19, 2797.45125pt x 2080.77374pt>
+<4.png, id=14, 2797.45125pt x 2080.77374pt>
 File: 4.png Graphic file (type png)
 <use 4.png>
 Package pdftex.def Info: 4.png  used on input line 86.
 (pdftex.def)             Requested size: 204.85846pt x 152.36829pt.
 
 
-[3{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/pl/plms.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/pl/plme.enc} <./3.PNG> <./4.PNG>]
-<5.png, id=32, 207.174pt x 57.816pt>
-File: 5.png Graphic file (type png)
-<use 5.png>
-Package pdftex.def Info: 5.png  used on input line 159.
-(pdftex.def)             Requested size: 364.19667pt x 101.6444pt.
-<6.png, id=33, 2630.82875pt x 2013.5225pt>
-File: 6.png Graphic file (type png)
-<use 6.png>
-Package pdftex.def Info: 6.png  used on input line 176.
-(pdftex.def)             Requested size: 204.85846pt x 156.78375pt.
-<7.png, id=34, 2875.74374pt x 2143.00626pt>
-File: 7.png Graphic file (type png)
-<use 7.png>
-Package pdftex.def Info: 7.png  used on input line 183.
-(pdftex.def)             Requested size: 204.85846pt x 152.64172pt.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[4 <./5.png (PNG copy)>]
-<8.png, id=38, 350.30875pt x 145.54375pt>
+[2{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./1.PNG> <./2.png>]
+<5.png, id=21, 517.33275pt x 228.855pt>
+File: 5.png Graphic file (type png)
+<use 5.png>
+Package pdftex.def Info: 5.png  used on input line 118.
+(pdftex.def)             Requested size: 364.19667pt x 161.1158pt.
+
+
+[3{c:/texlive/2025/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/pl/plms.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/pl/plme.enc} <./3.PNG> <./4.PNG>]
+<6.png, id=33, 2630.82875pt x 2013.5225pt>
+File: 6.png Graphic file (type png)
+<use 6.png>
+Package pdftex.def Info: 6.png  used on input line 135.
+(pdftex.def)             Requested size: 204.85846pt x 156.78375pt.
+<7.png, id=34, 2875.74374pt x 2143.00626pt>
+File: 7.png Graphic file (type png)
+<use 7.png>
+Package pdftex.def Info: 7.png  used on input line 142.
+(pdftex.def)             Requested size: 204.85846pt x 152.64172pt.
+
+
+[4 <./5.png> <./6.PNG> <./7.PNG>]
+<8.png, id=41, 598.03426pt x 240.9pt>
 File: 8.png Graphic file (type png)
 <use 8.png>
-Package pdftex.def Info: 8.png  used on input line 236.
-(pdftex.def)             Requested size: 364.19667pt x 151.32416pt.
-
-
-[5 <./6.PNG> <./7.PNG>]
-<9.png, id=44, 2835.59375pt x 2150.0325pt>
+Package pdftex.def Info: 8.png  used on input line 180.
+(pdftex.def)             Requested size: 364.19667pt x 146.7025pt.
+<9.png, id=42, 2835.59375pt x 2150.0325pt>
 File: 9.png Graphic file (type png)
 <use 9.png>
-Package pdftex.def Info: 9.png  used on input line 253.
+Package pdftex.def Info: 9.png  used on input line 197.
 (pdftex.def)             Requested size: 204.85846pt x 155.30745pt.
-<10.png, id=45, 2809.49625pt x 2159.06625pt>
+<10.png, id=43, 2809.49625pt x 2159.06625pt>
 File: 10.png Graphic file (type png)
 <use 10.png>
-Package pdftex.def Info: 10.png  used on input line 260.
+Package pdftex.def Info: 10.png  used on input line 204.
 (pdftex.def)             Requested size: 204.85846pt x 157.40956pt.
 
 
-[6 <./8.png> <./9.PNG> <./10.PNG>]
+[5 <./8.png>]
 
-[7]
+[6 <./9.PNG> <./10.PNG>]
 
-[8] (./Sprawozdanie.aux)
+[7] (./Sprawozdanie.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
@@ -505,16 +503,16 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  9085 strings out of 469590
  204612 string characters out of 5474519
- 564576 words of memory out of 5000000
+ 562576 words of memory out of 5000000
  35861 multiletter control sequences out of 15000+600000
  634148 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,15n,80p,758b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,15n,80p,433b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Sprawozdanie.pdf (8 pages, 68474337 bytes).
+Output written on Sprawozdanie.pdf (7 pages, 68712867 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

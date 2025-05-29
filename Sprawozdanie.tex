@@ -92,64 +92,23 @@ Prostownik jednopołówkowy to rzeczywiście najprostsza konfiguracja prostownik
 \end{figure}
 
 \subsection*{Teoretyczne obliczenia}
-
-\textbf{Maksymalne napięcie po prostowaniu:}
-
 \[
-V_{\text{szczyt}} = V_m - V_D = 2{,}5\,\text{V} - 0{,}7\,\text{V} = 1{,}8\,\text{V}
-\]
-\textbf{Oznaczenia:}
-
-\begin{itemize}
-    \item $V_m$ – amplituda napięcia wejściowego (czyli maksymalna wartość sinusoidy: \SI{2.5}{\volt}),
-    \item $V_D$ – spadek napięcia na przewodzącej diodzie (około \SI{0.7}{\volt} dla diody krzemowej).
-\end{itemize}
-
-\textbf{Uśrednione napięcie (bez kondensatora):}
-
-\[
-V_{dc} = \frac{V_m- V_D}{\pi}  \approx \frac{2{,}5- 0{,}7}{\pi}  \approx \frac{1{,}8}{\pi} = 0{,}573\,\text{V}
-\]
-
-
-\textbf{Sprawność prostownika}
-
-Sprawność prostownika definiujemy jako:
-
-\[
-\eta = \left( \frac{V_{dc}}{V_{rms}} \right)^2
-\]
-
-\textbf{Gdzie:}
-
-\begin{itemize}
-    \item $V_{dc}$ – napięcie średnie na wyjściu,
-    \item $V_{rms}$ – wartość skuteczna napięcia wejściowego.
-\end{itemize}
-
-\textbf{Obliczenie:}
-
-Przybliżone napięcie średnie (z kondensatorem):
-
-\[
-V_{dc} \approx 0.75\,\text{V}
-\]
-
-Wartość skuteczna napięcia wejściowego dla sinusoidy o amplitudzie $V_m = 2.5\,\text{V}$:
-
-\[
-V_{rms} = \frac{V_m}{\sqrt{2}} = \frac{2.5}{\sqrt{2}} \approx 1.77\,\text{V}
-\]
-
-Obliczona sprawność:
-
-\[
-\eta = \left( \frac{0.75}{1.77} \right)^2 \approx 0.179 \approx 18\%
+P_{dc} = I_{dc}^2 \cdot R_L = \left( \frac{I_m}{\pi} \right)^2 \cdot R_L
 \]
 
 \[
-\eta = \left(\frac{0{,}75}{1{,}77}\right)^2 \approx 18\%
+P_{ac} = I_{rms}^2 \cdot (r_f + R_L), \quad \text{gdzie } I_{rms} = \frac{I_m}{2}
 \]
+
+gdzie $r_f$ jest rezystancją diody, na stronie producenta podane $0{,}6\ \Omega$, w naszych obliczeniach przyjmiemy $1\ \Omega$.
+
+
+\subsection*{Obliczona sprawność}
+
+\[
+\eta = \frac{P_{dc}}{P_{ac}} \cdot 100\% = 0{,}406 \left( 1 + \frac{r_f}{R_L} \right) \cdot 100\% = 0{,}406 \left( 1 + \frac{1\,\Omega}{100000\,\Omega} \right) \cdot 100\% \approx 40{,}6\%
+\]
+
 \section*{2.2 Prostownik dwupołówkowy z odczepem środkowym}
 
 Prostownik dwupołówkowy z odczepem środkowym wykorzystuje dwie diody i transformator z odczepem środkowym. Umożliwia to przewodzenie prądu w obu połówkach cyklu napięcia przemiennego, co skutkuje mniejszymi tętnieniami i wyższą sprawnością w porównaniu z prostownikiem jednopołówkowym.
@@ -189,44 +148,29 @@ Prostownik dwupołówkowy z odczepem środkowym wykorzystuje dwie diody i transf
 \end{figure}
 \subsection*{Teoretyczne obliczenia}
 
-\textbf{Napięcie szczytowe:}
-
 \[
-V_{\text{szczyt}} = V_m - V_D = 2{,}5\,\text{V} - 0{,}7\,\text{V} = 1{,}8\,\text{V}
-\]
-
-\textbf{Uśrednione napięcie (bez kondensatora):}
-
-\[
-V_{dc} \approx \frac{ V_m- V_D}{\pi}  \approx \frac{2{,}5-0{,}7}{\pi} \approx  0{,}57\,\text{V}
-\]
-
-\textbf{Sprawność prostownika:}
-
-\[
-\eta = \left( \frac{V_{dc}}{V_{rms}} \right)^2
-\]
-
-\textbf{Gdzie:}
-
-\begin{itemize}
-    \item $V_{dc}$ – napięcie średnie na wyjściu,
-    \item $V_{rms}$ – wartość skuteczna napięcia wejściowego.
-\end{itemize}
-
-\textbf{Obliczenie:}
-
-\[
-V_{dc} \approx 0{,}74\,\text{V}
+I_{dc} = \frac{2 \cdot I_m}{\pi}
 \]
 
 \[
-V_{rms} = \frac{V_m}{\sqrt{2}} = \frac{2{,}5}{\sqrt{2}} \approx 1{,}77\,\text{V}
+P_{dc} = I_{dc}^2 \cdot R_L = \left( \frac{2 \cdot I_m}{\pi} \right)^2 \cdot R_L
 \]
 
 \[
-\eta = \left( \frac{0{,}74}{1{,}77} \right)^2 \approx 0{,}175 \approx 17{,}5\%
+I_{rms} = \frac{I_m}{\sqrt{2}}
 \]
+
+\[
+P_{ac} = I_{rms}^2 \cdot (r_f + R_L) = \left( \frac{I_m}{\sqrt{2}} \right)^2 \cdot (r_f + R_L)
+\]
+
+gdzie $r_f$ jest rezystancją diody, na stronie producenta podane $0{,}6\ \Omega$, w naszych obliczeniach przyjmiemy $1\ \Omega$.
+
+\subsection*{Obliczona sprawność}
+\[
+\eta = \frac{P_{dc}}{P_{ac}} \cdot 100\% = 0{,}812 \left( 1 + \frac{r_f}{R_L} \right) \cdot 100\% = 0{,}812 \left( 1 + \frac{1\,\Omega}{100000\,\Omega} \right) \cdot 100\% \approx 81{,}2\%
+\]
+
 \section*{2.3 Prostownik mostkowy (Graetza)}
 
 Prostownik mostkowy, znany również jako układ Graetza, składa się z czterech diod połączonych w mostek. Dzięki temu podczas każdej połówki cyklu napięcia przemiennego prąd płynie przez dwie przewodzące diody, co pozwala uzyskać napięcie wyjściowe o tym samym znaku w obu połówkach cyklu.
@@ -246,7 +190,7 @@ Prostownik mostkowy, znany również jako układ Graetza, składa się z czterec
     \item \textbf{Bez kondensatora:} napięcie wyjściowe: 0 -- 504 mV
     \item \textbf{Z kondensatorem:} napięcie: 352 -- 400 mV
 \end{itemize}
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \begin{subfigure}{0.45\textwidth}
         \centering
@@ -267,55 +211,39 @@ Prostownik mostkowy, znany również jako układ Graetza, składa się z czterec
 
 \subsection*{Teoretyczne obliczenia}
 
-\textbf{Napięcie szczytowe (dwie diody przewodzą):}
-
 \[
-V_{\text{szczyt}} = V_m - 2V_D = 2{,}5\,\text{V} - 1{,}4\,\text{V} = 1{,}1\,\text{V}
-\]
-
-\textbf{Uśrednione napięcie:}
-
-\[
-V_{dc} = \frac{2 V_m}{\pi} - 2 V_D \approx \frac{5}{\pi} - 1{,}4 \approx 1{,}59 - 1{,}4 = 0{,}19\,\text{V}
-\]
-
-\textbf{Sprawność prostownika:}
-
-\[
-\eta = \left( \frac{V_{dc}}{V_{rms}} \right)^2
-\]
-
-\textbf{Gdzie:}
-
-\begin{itemize}
-    \item $V_{dc}$ – napięcie średnie na wyjściu,
-    \item $V_{rms}$ – wartość skuteczna napięcia wejściowego.
-\end{itemize}
-
-\textbf{Obliczenie:}
-
-\[
-V_{dc} \approx 0{,}380\,\text{V}
+I_{dc} = \frac{2 \cdot I_m}{\pi}
 \]
 
 \[
-V_{rms} = \frac{V_m}{\sqrt{2}} = \frac{2{,}5}{\sqrt{2}} \approx 1{,}77\,\text{V}
+P_{dc} = I_{dc}^2 \cdot R_L = \left( \frac{2 \cdot I_m}{\pi} \right)^2 \cdot R_L
 \]
 
 \[
-\eta = \left( \frac{0{,}380}{1{,}77} \right)^2 \approx 0{,}045 \approx 4{,}5\%
+I_{rms} = \frac{I_m}{\sqrt{2}}
 \]
+
+\[
+P_{ac} = I_{rms}^2 \cdot (r_f + R_L) = \left( \frac{I_m}{\sqrt{2}} \right)^2 \cdot (r_f + R_L)
+\]
+
+gdzie $r_f$ jest rezystancją diody, na stronie producenta podane $0{,}6\ \Omega$, w naszych obliczeniach przyjmiemy $1\ \Omega$.
+
+\subsection*{Obliczona sprawność}
+\[
+\eta = \frac{P_{dc}}{P_{ac}} \cdot 100\% = 0{,}812 \left( 1 + \frac{r_f}{R_L} \right) \cdot 100\% = 0{,}812 \left( 1 + \frac{1\,\Omega}{100000\,\Omega} \right) \cdot 100\% \approx 81{,}2\%
+\]
+
 \section*{3. Dyskusja błędów}
 
-Podczas pomiarów mogły wystąpić różne błędy, które wpłynęły na wyniki. Przede wszystkim używany oscyloskop mógł nie pokazywać dokładnych wartości napięcia średniego, zwłaszcza gdy napięcie zmieniało się szybko lub było impulsowe. Spadek napięcia na diodach mógł się różnić od typowego 0,7 V, ponieważ prąd był bardzo mały ze względu na dużą rezystancję obciążenia. Dodatkowo warto zauważyć, że badania były prowadzone przy małym napięciu wejściowym (około 2,5 V szczytowego), więc spadek 0,7 V na diodzie to stosunkowo duża strata – co mocno wpływało na wyniki. Napięcie z generatora mogło też nie być idealnie sinusoidalne.
-Możliwe były również błędy przy ręcznym odczycie i zapisie wyników, szczególnie jeśli wskazania były niestabilne. Wpływ mogły mieć też niedokładności elementów w układzie, takie jak tolerancja rezystorów czy różnice między diodami. Pomiar z kondensatorem również mógł być mniej precyzyjny, bo napięcie na wyjściu nie było całkowicie stałe.
+Otrzymane wyniki pomiarów były zgodne z teorią. Podczas pomiarów korzystaliśmy z oscyloskopu, którego dokładność zależy m.in. od ustawionej czułości, próbki i rodzaju przebiegu. W przypadku szybko zmieniających się sygnałów, takich jak napięcie wyjściowe prostowników, trudniej było jednoznacznie odczytać wartość napięcia średniego.
+
+Możliwe były także drobne zakłócenia na przebiegach oraz błędy odczytu związane z ręcznym odczytywaniem wartości z wykresów. Mimo to, ogólny charakter działania prostowników został zachowany i pomiary były wystarczająco dokładne do porównania z teorią.
 
 \section*{4. Wnioski}
 
-Podczas ćwiczenia zbadaliśmy działanie trzech rodzajów prostowników: jednopołówkowego, dwupołówkowego z odczepem środkowym oraz mostkowego. Otrzymane przebiegi i napięcia średnie były zbliżone do ogólnych oczekiwań teoretycznych, co potwierdziło poprawność działania układów. Największe napięcie średnie uzyskaliśmy w prostowniku dwupołówkowym, a najmniejsze w jednopołówkowym, co zgadza się z teorią. Zauważyliśmy również, że kondensator znacznie poprawiał przebieg napięcia wyjściowego, zmniejszając tętnienia.
+Podczas ćwiczenia zbadano działanie trzech rodzajów prostowników: jednopołówkowego, dwupołówkowego z odczepem środkowym oraz mostkowego. Otrzymane przebiegi i napięcia średnie były zbliżone do wartości teoretycznych, co potwierdziło poprawność działania układów.
 
-Spadki napięcia na diodach miały duży wpływ na wyniki, ponieważ przy niskim napięciu wejściowym (ok. 2,5 V) strata 0,7 V była znacząca. W prostowniku mostkowym, gdzie napięcie spada na dwóch diodach jednocześnie, efekt ten był jeszcze silniejszy. Zaobserwowaliśmy dużą różnicę między teoretyczną maksymalną sprawnością a sprawnością uzyskaną w praktyce. Prawdopodobną przyczyną był bardzo mały prąd w układzie, który powodował duży relatywny wpływ spadków napięcia na diodach.
-
-Drobne różnice w wynikach mogły być również spowodowane niedokładnością pomiarów oraz tolerancją użytych elementów. Ogólnie uzyskane wyniki potwierdziły działanie prostowników zgodnie z przewidywaniami, choć widoczne były praktyczne ograniczenia układów przy pracy z niskim napięciem i małym obciążeniem.
+Pomiary potwierdziły działanie prostowników zgodne z przewidywaniami, a różnice mogły wynikać z błędów pomiarowych i charakterystyki użytych elementów.
 
 \end{document}
