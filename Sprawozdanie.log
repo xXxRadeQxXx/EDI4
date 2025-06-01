@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.22)  26 MAY 2025 22:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.22)  1 JUN 2025 23:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -310,6 +310,9 @@ LaTeX Warning: Label `sub@fig:schemat2' multiply defined.
 
 LaTeX Warning: Label `fig:porownanie' multiply defined.
 
+
+LaTeX Warning: Label `fig:schemat_dwu' multiply defined.
+
 )
 \openout1 = `Sprawozdanie.aux'.
 
@@ -489,8 +492,14 @@ Package pdftex.def Info: 10.png  used on input line 204.
 [5 <./8.png>]
 
 [6 <./9.PNG> <./10.PNG>]
+<11.jpg, id=53, 1541.76pt x 2055.68pt>
+File: 11.jpg Graphic file (type jpg)
+<use 11.jpg>
+Package pdftex.def Info: 11.jpg  used on input line 251.
+(pdftex.def)             Requested size: 364.19667pt x 485.59424pt.
 
-[7] (./Sprawozdanie.aux)
+
+[7 <./11.jpg>] (./Sprawozdanie.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
@@ -501,18 +510,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9085 strings out of 469590
- 204612 string characters out of 5474519
+ 9092 strings out of 469590
+ 204702 string characters out of 5474519
  562576 words of memory out of 5000000
- 35861 multiletter control sequences out of 15000+600000
+ 35868 multiletter control sequences out of 15000+600000
  634148 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,15n,80p,433b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/pl/plsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Sprawozdanie.pdf (7 pages, 68712867 bytes).
+Output written on Sprawozdanie.pdf (7 pages, 68856550 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

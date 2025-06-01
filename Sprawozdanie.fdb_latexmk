@@ -1,7 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1748290579.56847 "c:/Users/Radek/Desktop/Sprawozdanie/Sprawozdanie.tex" "Sprawozdanie.pdf" "Sprawozdanie" 1748290586.76385 0
+["pdflatex"] 1748815109.53624 "c:/Users/Radek/Desktop/Sprawozdanie/Sprawozdanie.tex" "Sprawozdanie.pdf" "Sprawozdanie" 1748815125.9605 0
   "1.PNG" 1747907374 10696969 958624717511247577cbae37a72c7594 ""
   "10.PNG" 1747920823 10512888 ee0460faf70e406535bfbe8d87cf6fd8 ""
+  "11.jpg" 1748814864 143180 e4d476adb034fee812a29f61a08889b4 ""
   "2.png" 1748269502 73402 064bd4ff496faf29abc3877f2a4dc62f ""
   "3.PNG" 1747918565 8477863 4cb34ba175c4deff4836c5668cd0afab ""
   "4.PNG" 1747918721 10136558 229935e61c51f1c25d0d628b32dd63b6 ""
@@ -11,9 +12,9 @@
   "8.png" 1748269664 109973 8df50bffc04ef8833beaac7a6c5e2ee1 ""
   "9.PNG" 1747920766 10638036 f994f1bb03f75bac5111ae079817f10f ""
   "AB09.png" 1747903305 25391 02daff67dc428e72cb915bd098824917 ""
-  "Sprawozdanie.aux" 1748290586 2280 7c7401e4aae36e75f018622ed9dc25a1 "pdflatex"
-  "Sprawozdanie.tex" 1748290570 9305 06d6e2cdbcade47b480b1446f6c7efe5 ""
-  "c:/Users/Radek/Desktop/Sprawozdanie/Sprawozdanie.tex" 1748290570 9305 06d6e2cdbcade47b480b1446f6c7efe5 ""
+  "Sprawozdanie.aux" 1748815125 2443 7200eb51e797e639914c23eaa2e73f1e "pdflatex"
+  "Sprawozdanie.tex" 1748815107 9485 945e8717e2f6ec8db6f4074167a9854e ""
+  "c:/Users/Radek/Desktop/Sprawozdanie/Sprawozdanie.tex" 1748815107 9485 945e8717e2f6ec8db6f4074167a9854e ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1747897531 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/pl/plme.enc" 1747901822 3126 59f33ff3e396436ebc36f4e7b444d5c4 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1747901822 2005 f094775651a1386335c158fb632529f1 ""
